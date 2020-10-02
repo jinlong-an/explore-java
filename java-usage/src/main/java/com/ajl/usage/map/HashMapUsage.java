@@ -10,10 +10,11 @@ import java.util.HashMap;
 public class HashMapUsage {
 
     public static void main(String[] args) {
-        testPutAll();
+        putAllTest();
     }
 
-    public static void testPutAll() {
+    public static void putAllTest() {
+        System.out.println("putAll 将map2的数据全部放入到map1中，如果map1中已经存在key则更新，如果不存在则插入。");
 
         HashMap<String, String> map1 = new HashMap();
         HashMap<String, String> map2 = new HashMap();
